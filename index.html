@@ -3,483 +3,335 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Elevated Engagement AI — AI-Powered Growth for Home Service Businesses</title>
-  <meta name="description" content="Stop losing leads. Elevated Engagement AI helps roofing, HVAC, plumbing, and landscaping companies capture every call, qualify every lead, and scale with AI-powered tools.">
-  <meta property="og:title" content="Elevated Engagement AI — Never Miss Another Lead">
-  <meta property="og:description" content="AI tools built for home service businesses. Capture calls, qualify leads, reactivate customers — 24/7.">
-  <meta property="og:type" content="website">
-  <meta property="og:url" content="https://elevatedengagement.ai">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <title>Elevated Engagement AI — Never Miss Another Lead</title>
+  <meta name="description" content="AI-powered lead response for home service companies. Answer every call, qualify every lead, book more appointments — automatically.">
   <link rel="stylesheet" href="styles.css">
-  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='8' fill='%23F59E0B'/><text x='50%25' y='55%25' dominant-baseline='middle' text-anchor='middle' font-family='system-ui' font-weight='800' font-size='18' fill='%230B1D3A'>E</text></svg>">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect rx='20' width='100' height='100' fill='%230071e3'/><text x='50' y='68' font-size='50' font-weight='900' text-anchor='middle' fill='white' font-family='system-ui'>EE</text></svg>">
 </head>
 <body>
 
-  <!-- Navigation -->
-  <nav class="nav">
-    <div class="container nav-inner">
-      <a href="#" class="nav-logo">
-        <div class="nav-logo-icon">E</div>
-        Elevated
-      </a>
-      <div class="nav-links">
-        <a href="#services">Services</a>
-        <a href="#how-it-works">How It Works</a>
-        <a href="#results">Results</a>
-        <a href="#about">About</a>
-        <a href="#faq">FAQ</a>
-        <a href="#book-call" class="btn btn-primary nav-cta">Book a Call</a>
-      </div>
-      <button class="nav-toggle" aria-label="Menu">
-        <span></span><span></span><span></span>
-      </button>
-    </div>
-  </nav>
-
-  <!-- Mobile Menu -->
-  <div class="mobile-menu">
-    <button class="mobile-close" aria-label="Close">×</button>
-    <a href="#services">Services</a>
-    <a href="#how-it-works">How It Works</a>
-    <a href="#results">Results</a>
-    <a href="#about">About</a>
-    <a href="#faq">FAQ</a>
-    <a href="#book-call" class="btn btn-primary">Book a Call</a>
+<!-- ============================================ NAV ============================================ -->
+<nav class="nav">
+  <div class="container">
+    <a href="#" class="logo">
+      <svg class="logo-mark" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <rect width="40" height="40" rx="10" fill="#0071e3"/>
+        <path d="M13 24L20 12L27 24" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M16.5 19L20 12L23.5 19" stroke="white" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" opacity="0.5"/>
+        <circle cx="20" cy="28" r="2" fill="white" opacity="0.7"/>
+      </svg>
+      <div class="logo-text">Elevated<br>Engagement<span>AI-Powered Lead Response</span></div>
+    </a>
+    <ul class="nav-links">
+      <li><a href="#services">Services</a></li>
+      <li><a href="#how">How It Works</a></li>
+      <li><a href="#results">Results</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#faq">FAQ</a></li>
+      <li><a href="#audit" class="nav-cta">Free Lead Audit</a></li>
+    </ul>
+    <button class="mobile-toggle" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
   </div>
+</nav>
 
-  <!-- Hero -->
-  <section class="hero" id="hero">
-    <div class="container hero-grid">
-      <div class="hero-content">
-        <div class="hero-badge">
-          <span class="hero-badge-dot"></span>
-          AI Built for the Trades
-        </div>
-        <h1>Stop Losing Leads.<br><span>Start Scaling.</span></h1>
-        <p class="hero-subtitle">AI-powered tools that answer every call, qualify every lead, and reactivate your dead customers — so your home service business grows on autopilot.</p>
-        <div class="hero-buttons">
-          <a href="#book-call" class="btn btn-primary btn-arrow">Book a Free Strategy Call</a>
-          <a href="#how-it-works" class="btn btn-secondary">See How It Works</a>
-        </div>
-        <div class="hero-stats">
-          <div>
-            <div class="hero-stat-value" data-count="97" data-suffix="%">0%</div>
-            <div class="hero-stat-label">Call Answer Rate</div>
-          </div>
-          <div>
-            <div class="hero-stat-value" data-count="3" data-suffix="x">0x</div>
-            <div class="hero-stat-label">More Booked Jobs</div>
-          </div>
-          <div>
-            <div class="hero-stat-value" data-count="24" data-suffix="/7">0/7</div>
-            <div class="hero-stat-label">Lead Qualification</div>
-          </div>
-        </div>
+<!-- ============================================ HERO ============================================ -->
+<section class="hero">
+  <div class="container">
+    <div class="hero-content">
+      <div class="hero-badge reveal">
+        <span class="dot"></span>
+        AI answering leads right now
       </div>
-      <div class="hero-visual">
-        <div class="hero-card">
-          <div class="hero-card-header">
-            <div class="hero-card-icon">📞</div>
-            <div>
-              <div class="hero-card-title">AI Receptionist — Live</div>
-              <div class="hero-card-subtitle">Handling inbound calls</div>
-            </div>
-          </div>
-          <div class="hero-metric">
-            <span class="hero-metric-label">Calls Answered Today</span>
-            <span class="hero-metric-value">47</span>
-          </div>
-          <div class="hero-metric">
-            <span class="hero-metric-label">Jobs Booked</span>
-            <span class="hero-metric-value">18</span>
-          </div>
-          <div class="hero-metric">
-            <span class="hero-metric-label">Revenue Captured</span>
-            <span class="hero-metric-value amber">$12,400</span>
-          </div>
-          <div class="hero-metric">
-            <span class="hero-metric-label">Missed Calls</span>
-            <span class="hero-metric-value">0</span>
-          </div>
+      <h1 class="reveal reveal-delay-1">You're Losing <em>50% of Your Leads</em> Before Anyone Picks Up the Phone</h1>
+      <p class="reveal reveal-delay-2">Every missed call is money walking out the door. Our AI answers in under 10 seconds, qualifies the lead, and books the appointment — so you don't have to.</p>
+      <div class="hero-buttons reveal reveal-delay-3">
+        <a href="#audit" class="btn btn-primary btn-arrow">Get Your Free Lead Audit</a>
+        <a href="#how" class="btn btn-secondary">See How It Works</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================ SOCIAL PROOF ============================================ -->
+<section class="proof-bar">
+  <div class="container">
+    <p class="reveal">Trusted by home service companies across America</p>
+    <div class="proof-icons reveal reveal-delay-1">
+      <div class="proof-icon">
+        <svg viewBox="0 0 36 36" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M18 4L4 18h6v14h16V18h6L18 4z"/></svg>
+        <span>Roofing</span>
+      </div>
+      <div class="proof-icon">
+        <svg viewBox="0 0 36 36" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="8" y="14" width="20" height="16" rx="2"/><path d="M12 14V10a6 6 0 0112 0v4"/><path d="M14 22h8M18 22v4"/></svg>
+        <span>HVAC</span>
+      </div>
+      <div class="proof-icon">
+        <svg viewBox="0 0 36 36" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M18 4v10M14 14h8l-2 10h-4l-2-10zM16 24v8M20 24v8"/></svg>
+        <span>Plumbing</span>
+      </div>
+      <div class="proof-icon">
+        <svg viewBox="0 0 36 36" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M18 32c0-8-6-10-6-18a6 6 0 0112 0c0 8-6 10-6 18z"/><path d="M14 28h8"/></svg>
+        <span>Landscaping</span>
+      </div>
+      <div class="proof-icon">
+        <svg viewBox="0 0 36 36" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M18 6v6M18 24v6M30 18h-6M12 18H6"/><circle cx="18" cy="18" r="4"/><path d="M24.5 11.5l-3.5 3.5M15 21l-3.5 3.5M24.5 24.5l-3.5-3.5M15 15l-3.5-3.5"/></svg>
+        <span>Electrical</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================ PAIN ============================================ -->
+<section class="pain" id="problem">
+  <div class="container">
+    <div class="section-label reveal">The Problem</div>
+    <h2 class="section-title reveal">While You're on a Job,<br>Leads Are Slipping Away</h2>
+    <p class="section-subtitle reveal">The data is brutal. And it's costing you thousands every month.</p>
+    <div class="pain-grid">
+      <div class="pain-card reveal reveal-delay-1">
+        <div class="pain-stat">62%</div>
+        <h3>Calls Go Unanswered</h3>
+        <p>Most home service companies miss more than half their inbound calls. Each one is a potential $2,000+ job — gone.</p>
+      </div>
+      <div class="pain-card reveal reveal-delay-2">
+        <div class="pain-stat">5 min</div>
+        <h3>Too Slow to Win</h3>
+        <p>The average response time is over 5 minutes. After 60 seconds, your odds of converting that lead drop by 90%.</p>
+      </div>
+      <div class="pain-card reveal reveal-delay-3">
+        <div class="pain-stat">$120K</div>
+        <h3>Lost Revenue Per Year</h3>
+        <p>For a typical home service company, missed and slow-responded leads add up to six figures in lost annual revenue.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================ SOLUTION ============================================ -->
+<section class="solution">
+  <div class="container">
+    <div class="solution-content">
+      <div class="section-label reveal">The Solution</div>
+      <h2 class="section-title reveal">Your AI-Powered<br>Front Office</h2>
+      <p class="section-subtitle reveal">Elevated Engagement replaces the chaos with a system. Our AI answers every lead in seconds, asks the right questions, qualifies the opportunity, and books it on your calendar. You show up. You close. That's it.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================ SERVICES ============================================ -->
+<section class="services" id="services">
+  <div class="container">
+    <div style="text-align:center">
+      <div class="section-label reveal">What We Deliver</div>
+      <h2 class="section-title reveal">Outcomes, Not Features</h2>
+    </div>
+    <div class="services-grid">
+      <div class="service-card reveal reveal-delay-1">
+        <div class="service-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
+        </div>
+        <h3>Every Call Answered</h3>
+        <p>Your AI receptionist picks up in under 10 seconds. 24/7. No hold music. No voicemail. Just a professional, trained voice ready to help.</p>
+      </div>
+      <div class="service-card reveal reveal-delay-2">
+        <div class="service-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M16 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"/><circle cx="8.5" cy="7" r="4"/><path d="M20 8v6M23 11h-6"/></svg>
+        </div>
+        <h3>Leads Qualified Instantly</h3>
+        <p>Not all leads are equal. Our AI asks the right questions to separate tire-kickers from ready-to-buy customers — before they reach your team.</p>
+      </div>
+      <div class="service-card reveal reveal-delay-3">
+        <div class="service-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4"/><polyline points="17 8 12 3 7 8"/><line x1="12" y1="3" x2="12" y2="15"/></svg>
+        </div>
+        <h3>Dead Leads Reactivated</h3>
+        <p>Your old leads aren't dead — they're dormant. We re-engage past inquiries with smart follow-ups that turn cold contacts into booked appointments.</p>
+      </div>
+      <div class="service-card reveal reveal-delay-4">
+        <div class="service-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M2 20h20M5 20V10l7-7 7 7v10"/><path d="M9 20v-6h6v6"/></svg>
+        </div>
+        <h3>Built to Scale</h3>
+        <p>Whether you're a one-truck operation or managing 50 techs, we design systems that grow with you. Strategy and consulting included.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================ HOW IT WORKS ============================================ -->
+<section class="how" id="how">
+  <div class="container">
+    <div style="text-align:center">
+      <div class="section-label reveal">How It Works</div>
+      <h2 class="section-title reveal">Three Steps. That's It.</h2>
+    </div>
+    <div class="how-steps">
+      <div class="how-step reveal reveal-delay-1">
+        <h3>We Audit Your Leads</h3>
+        <p>We analyze your current lead flow, response times, and missed opportunities. You'll see exactly where money is leaking.</p>
+      </div>
+      <div class="how-step reveal reveal-delay-2">
+        <h3>We Deploy Your AI</h3>
+        <p>Custom-trained to your business, your services, your market. Plugs into your existing phone system in 48 hours.</p>
+      </div>
+      <div class="how-step reveal reveal-delay-3">
+        <h3>You Book More Jobs</h3>
+        <p>Every lead answered. Every opportunity qualified. Your calendar fills up while you focus on what you do best — the work.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================ RESULTS ============================================ -->
+<section class="results" id="results">
+  <div class="container">
+    <div style="text-align:center">
+      <div class="section-label reveal">Results We Deliver</div>
+      <h2 class="section-title reveal">The Numbers Speak</h2>
+    </div>
+    <div class="results-grid">
+      <div class="result-card reveal reveal-delay-1">
+        <div class="result-number" data-count="93" data-suffix="%">0%</div>
+        <h3>Leads Answered in Under 10 Seconds</h3>
+        <p>No more missed calls. No more voicemail.</p>
+      </div>
+      <div class="result-card reveal reveal-delay-2">
+        <div class="result-number" data-count="2.5" data-suffix="x">0x</div>
+        <h3>More Appointments Booked</h3>
+        <p>Qualified leads, on your calendar, automatically.</p>
+      </div>
+      <div class="result-card reveal reveal-delay-3">
+        <div class="result-number" data-count="47" data-suffix="%">0%</div>
+        <h3>Reduction in Missed Opportunities</h3>
+        <p>Every lead gets a response. Every time.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================ VIDEO ============================================ -->
+<section class="video" id="video">
+  <div class="container">
+    <div style="text-align:center">
+      <div class="section-label reveal">See It In Action</div>
+      <h2 class="section-title reveal">Watch How It Works</h2>
+    </div>
+    <div class="video-wrapper reveal">
+      <div class="play-btn">
+        <svg viewBox="0 0 24 24" fill="currentColor"><polygon points="5 3 19 12 5 21 5 3"/></svg>
+      </div>
+      <span>Video coming soon — click to play</span>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================ ABOUT ============================================ -->
+<section class="about" id="about">
+  <div class="container">
+    <div style="text-align:center">
+      <div class="section-label reveal">Who We Are</div>
+      <h2 class="section-title reveal">Built by Operators,<br>Not Just Engineers</h2>
+    </div>
+    <div class="about-content reveal">
+      <div class="about-text">
+        <p><strong>Los and Alex</strong> built Elevated Engagement after watching home service companies bleed revenue from the same problem: unanswered leads.</p>
+        <p>They've worked with contractors, roofers, HVAC companies, and service businesses of all sizes. They know your world — the 6 AM starts, the jobs that run long, the phone that won't stop buzzing.</p>
+        <p>This isn't Silicon Valley tech looking for a market. This is a solution built from the trenches, for the people in the trenches.</p>
+      </div>
+      <div class="about-avatars">
+        <div class="avatar-block">
+          <div class="avatar-circle">L</div>
+          <h4>Los</h4>
+          <p>Co-Founder</p>
+        </div>
+        <div class="avatar-block">
+          <div class="avatar-circle">A</div>
+          <h4>Alex</h4>
+          <p>Co-Founder</p>
         </div>
       </div>
     </div>
-  </section>
+  </div>
+</section>
 
-  <!-- Logos Bar -->
-  <section class="logos-bar">
-    <div class="container">
-      <p>Trusted by home service companies across the country</p>
-      <div class="logos-row">
-        <span class="logo-item">ROOFING CO.</span>
-        <span class="logo-item">PREMIER HVAC</span>
-        <span class="logo-item">ELITE PLUMBING</span>
-        <span class="logo-item">GREENSCAPE</span>
-        <span class="logo-item">APEX ELECTRIC</span>
+<!-- ============================================ FAQ ============================================ -->
+<section class="faq" id="faq">
+  <div class="container">
+    <div style="text-align:center">
+      <div class="section-label reveal">FAQ</div>
+      <h2 class="section-title reveal">Questions? Good.</h2>
+    </div>
+    <div class="faq-list">
+      <div class="faq-item reveal">
+        <button class="faq-question">
+          <h3>Will this actually sound like a real person?</h3>
+          <span class="faq-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg></span>
+        </button>
+        <div class="faq-answer"><p>Yes. Our AI voices are trained to sound natural, professional, and warm. Most callers can't tell the difference — and frankly, they don't care as long as someone picks up and helps them.</p></div>
+      </div>
+      <div class="faq-item reveal">
+        <button class="faq-question">
+          <h3>How long does setup take?</h3>
+          <span class="faq-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg></span>
+        </button>
+        <div class="faq-answer"><p>Most businesses are live within 48 hours. We handle all the technical setup — you just need to point your calls to us and we take care of the rest.</p></div>
+      </div>
+      <div class="faq-item reveal">
+        <button class="faq-question">
+          <h3>What if I already have a receptionist?</h3>
+          <span class="faq-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg></span>
+        </button>
+        <div class="faq-answer"><p>Great — we make them better. Our AI handles overflow, after-hours, and high-volume periods. Your receptionist focuses on high-touch calls while we catch everything else.</p></div>
+      </div>
+      <div class="faq-item reveal">
+        <button class="faq-question">
+          <h3>Does this work with my existing phone system?</h3>
+          <span class="faq-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg></span>
+        </button>
+        <div class="faq-answer"><p>Yes. We integrate with virtually any phone system — landline, VoIP, Google Voice, ServiceTitan, Housecall Pro, you name it. No hardware needed.</p></div>
+      </div>
+      <div class="faq-item reveal">
+        <button class="faq-question">
+          <h3>What's the Free Lead Audit?</h3>
+          <span class="faq-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg></span>
+        </button>
+        <div class="faq-answer"><p>We analyze your current lead response process — call answer rates, response times, follow-up gaps — and show you exactly where you're losing money. No cost. No obligation. Just clarity.</p></div>
+      </div>
+      <div class="faq-item reveal">
+        <button class="faq-question">
+          <h3>How much does it cost?</h3>
+          <span class="faq-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg></span>
+        </button>
+        <div class="faq-answer"><p>Every business is different, so we tailor pricing to your call volume and needs. Start with the free audit — we'll give you a custom quote based on what we find. Most clients see ROI within the first month.</p></div>
       </div>
     </div>
-  </section>
+  </div>
+</section>
 
-  <!-- Services -->
-  <section class="services" id="services">
-    <div class="container">
-      <div class="services-header">
-        <div class="section-label">What We Do</div>
-        <h2>AI Tools That Work<br>as Hard as You Do</h2>
-        <p class="section-subtitle">Four core solutions designed to capture more leads, book more jobs, and build a business that runs without you.</p>
-      </div>
-      <div class="services-grid">
-        <div class="service-card reveal">
-          <div class="service-icon">📞</div>
-          <h3>AI Phone Receptionist</h3>
-          <p>Never miss another lead. Our AI answers every call in seconds — day, night, weekends, holidays. It sounds human, books appointments, and routes urgent calls to your team.</p>
-          <ul class="service-features">
-            <li>Answers in under 3 rings, 24/7/365</li>
-            <li>Books directly into your calendar</li>
-            <li>Custom-trained on your services &amp; pricing</li>
-            <li>Transfers hot leads to your team instantly</li>
-          </ul>
-        </div>
-        <div class="service-card reveal reveal-delay-1">
-          <div class="service-icon">🎯</div>
-          <h3>Lead Qualification Bot</h3>
-          <p>Stop wasting time on tire-kickers. Our AI qualifies every lead — asking budget, timeline, scope — so your sales team only talks to people ready to buy.</p>
-          <ul class="service-features">
-            <li>Qualifies leads via text, web chat, or voice</li>
-            <li>Scores leads hot, warm, or cold</li>
-            <li>Pushes qualified leads to your CRM</li>
-            <li>Works across all your lead sources</li>
-          </ul>
-        </div>
-        <div class="service-card reveal reveal-delay-2">
-          <div class="service-icon">💬</div>
-          <h3>Email &amp; SMS Reactivation</h3>
-          <p>You're sitting on a goldmine. We deploy AI-powered campaigns to wake up your past customers and unconverted leads — turning dead lists into booked jobs.</p>
-          <ul class="service-features">
-            <li>Personalized outreach at scale</li>
-            <li>Automated follow-up sequences</li>
-            <li>Typically 15-30% reactivation rate</li>
-            <li>Revenue from leads you already paid for</li>
-          </ul>
-        </div>
-        <div class="service-card reveal reveal-delay-3">
-          <div class="service-icon">📈</div>
-          <h3>Business Scaling Consultation</h3>
-          <p>Ready to grow — or exit? We help home service owners systematize operations, increase valuation, and build a business that doesn't depend on you showing up every day.</p>
-          <ul class="service-features">
-            <li>Operations audit &amp; optimization</li>
-            <li>AI integration roadmap</li>
-            <li>Exit planning &amp; valuation strategy</li>
-            <li>Ongoing advisory partnership</li>
-          </ul>
-        </div>
-      </div>
+<!-- ============================================ FINAL CTA ============================================ -->
+<section class="cta-final" id="audit">
+  <div class="container">
+    <div class="section-label reveal">Stop Losing Leads</div>
+    <h2 class="section-title reveal">Find Out How Many Leads<br>You're Missing — For Free</h2>
+    <p class="section-subtitle reveal" style="margin:0 auto 40px">Get a personalized audit of your lead response process. See the gaps. See the revenue. No cost, no commitment.</p>
+    <a href="https://calendly.com" class="btn btn-primary btn-arrow reveal" style="font-size:18px;padding:22px 48px;">Get Your Free Lead Audit</a>
+  </div>
+</section>
+
+<!-- ============================================ FOOTER ============================================ -->
+<footer class="footer">
+  <div class="container">
+    <p>&copy; 2025 Elevated Engagement AI. All rights reserved.</p>
+    <div class="footer-links">
+      <a href="mailto:hello@elevatedengagement.ai">Contact</a>
+      <a href="#">Privacy</a>
+      <a href="#">Terms</a>
     </div>
-  </section>
+  </div>
+</footer>
 
-  <!-- How It Works -->
-  <section class="how-it-works" id="how-it-works">
-    <div class="container">
-      <div class="how-it-works-header">
-        <div class="section-label">How It Works</div>
-        <h2>Up and Running<br>in 3 Simple Steps</h2>
-        <p class="section-subtitle">No tech skills needed. No long onboarding. We handle everything so you can focus on running your business.</p>
-      </div>
-      <div class="steps">
-        <div class="step reveal">
-          <div class="step-number">1</div>
-          <h3>Strategy Call</h3>
-          <p>We learn your business, your bottlenecks, and where you're leaving money on the table. Takes 30 minutes.</p>
-        </div>
-        <div class="step reveal reveal-delay-1">
-          <div class="step-number">2</div>
-          <h3>Custom Setup</h3>
-          <p>We build, train, and deploy your AI tools — customized to your services, your voice, and your workflow. Done in days, not months.</p>
-        </div>
-        <div class="step reveal reveal-delay-2">
-          <div class="step-number">3</div>
-          <h3>Watch It Work</h3>
-          <p>Leads get answered, qualified, and booked — automatically. You get a dashboard showing every call, every lead, every dollar captured.</p>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Results -->
-  <section class="results" id="results">
-    <div class="container">
-      <div class="results-header">
-        <div class="section-label">Results</div>
-        <h2>Numbers That Matter</h2>
-        <p class="section-subtitle">Real results from real home service businesses using Elevated Engagement AI.</p>
-      </div>
-      <div class="results-grid">
-        <div class="result-card reveal">
-          <div class="result-value" data-count="97" data-suffix="%">0%</div>
-          <div class="result-label">Inbound Call<br>Answer Rate</div>
-        </div>
-        <div class="result-card reveal reveal-delay-1">
-          <div class="result-value" data-count="340" data-suffix="%" data-prefix="+">0%</div>
-          <div class="result-label">Average Increase<br>in Booked Jobs</div>
-        </div>
-        <div class="result-card reveal reveal-delay-2">
-          <div class="result-value" data-count="28" data-suffix="%">0%</div>
-          <div class="result-label">Dead Lead<br>Reactivation Rate</div>
-        </div>
-        <div class="result-card reveal reveal-delay-3">
-          <div class="result-value" data-prefix="$" data-count="2" data-suffix="M+">0M+</div>
-          <div class="result-label">Revenue Captured<br>for Clients</div>
-        </div>
-      </div>
-      <div class="testimonials">
-        <div class="testimonial-card reveal">
-          <div class="testimonial-stars">★★★★★</div>
-          <p class="testimonial-text">"We were missing 40% of our calls. Now we capture every single one. Our booked jobs doubled in the first month."</p>
-          <div class="testimonial-author">Mike R.</div>
-          <div class="testimonial-role">Owner, Premier Roofing Co.</div>
-        </div>
-        <div class="testimonial-card reveal reveal-delay-1">
-          <div class="testimonial-stars">★★★★★</div>
-          <p class="testimonial-text">"The reactivation campaign pulled $47K from a list I thought was dead. Best ROI on anything I've ever spent money on."</p>
-          <div class="testimonial-author">Sarah T.</div>
-          <div class="testimonial-role">Owner, ComfortZone HVAC</div>
-        </div>
-        <div class="testimonial-card reveal reveal-delay-2">
-          <div class="testimonial-stars">★★★★★</div>
-          <p class="testimonial-text">"Los and Alex actually understand our business. They're not tech guys trying to sell us stuff — they're partners helping us grow."</p>
-          <div class="testimonial-author">David K.</div>
-          <div class="testimonial-role">Owner, Apex Plumbing</div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- About -->
-  <section class="about" id="about">
-    <div class="container about-grid">
-      <div class="about-content reveal">
-        <div class="section-label">About Us</div>
-        <h2>Built by Operators,<br>Not Just Technologists</h2>
-        <p class="section-subtitle">We've been in the trenches of building and scaling businesses. Now we bring that experience — plus cutting-edge AI — to home service companies ready to level up.</p>
-        <p class="about-text">Elevated Engagement AI was founded by <strong>Los Silva</strong> and <strong>Alex</strong> with one mission: make enterprise-level AI accessible and affordable for the businesses that build America — roofers, plumbers, HVAC techs, landscapers, and electricians.</p>
-        <p class="about-text">We're not a faceless software company. We're partners who pick up the phone, understand your P&amp;L, and build solutions that actually move the needle on revenue.</p>
-        <div class="about-values">
-          <div class="about-value">
-            <div class="about-value-icon">🤝</div>
-            <h4>Partner Mindset</h4>
-            <p>Your growth is our growth. We only win when you win.</p>
-          </div>
-          <div class="about-value">
-            <div class="about-value-icon">⚡</div>
-            <h4>Speed to Value</h4>
-            <p>Live in days, not months. Results in weeks, not quarters.</p>
-          </div>
-          <div class="about-value">
-            <div class="about-value-icon">🎯</div>
-            <h4>Results Only</h4>
-            <p>We don't sell features. We sell outcomes — more leads, more revenue.</p>
-          </div>
-          <div class="about-value">
-            <div class="about-value-icon">🔧</div>
-            <h4>Built for Trades</h4>
-            <p>Every tool is designed for how home service businesses actually work.</p>
-          </div>
-        </div>
-      </div>
-      <div class="about-visual reveal reveal-delay-2">
-        <div class="about-image-placeholder">
-          <h3>Los &amp; Alex</h3>
-          <p>Co-Founders, Elevated Engagement AI</p>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Pricing -->
-  <section class="pricing" id="pricing">
-    <div class="container">
-      <div class="pricing-header">
-        <div class="section-label">Pricing</div>
-        <h2>Simple, Transparent Pricing</h2>
-        <p class="section-subtitle">No long-term contracts. No hidden fees. Start seeing results in your first week.</p>
-      </div>
-      <div class="pricing-grid">
-        <div class="pricing-card reveal">
-          <div class="pricing-name">Starter</div>
-          <div class="pricing-desc">Perfect for getting started with AI</div>
-          <div class="pricing-price">$497<span>/mo</span></div>
-          <ul class="pricing-features">
-            <li>AI Phone Receptionist</li>
-            <li>Up to 200 calls/month</li>
-            <li>Basic call routing</li>
-            <li>Dashboard &amp; reporting</li>
-            <li>Email support</li>
-          </ul>
-          <a href="#book-call" class="btn btn-outline btn-arrow">Get Started</a>
-        </div>
-        <div class="pricing-card featured reveal reveal-delay-1">
-          <div class="pricing-badge">Most Popular</div>
-          <div class="pricing-name">Growth</div>
-          <div class="pricing-desc">Full AI stack for scaling businesses</div>
-          <div class="pricing-price">$997<span>/mo</span></div>
-          <ul class="pricing-features">
-            <li>Everything in Starter</li>
-            <li>Lead Qualification Bot</li>
-            <li>Email &amp; SMS Reactivation</li>
-            <li>Unlimited calls</li>
-            <li>CRM integration</li>
-            <li>Priority support</li>
-          </ul>
-          <a href="#book-call" class="btn btn-primary btn-arrow">Get Started</a>
-        </div>
-        <div class="pricing-card reveal reveal-delay-2">
-          <div class="pricing-name">Scale</div>
-          <div class="pricing-desc">For multi-location or high-volume ops</div>
-          <div class="pricing-price">Custom</div>
-          <ul class="pricing-features">
-            <li>Everything in Growth</li>
-            <li>Business Scaling Consultation</li>
-            <li>Exit planning &amp; valuation</li>
-            <li>Multi-location support</li>
-            <li>Dedicated success manager</li>
-            <li>Custom AI solutions</li>
-          </ul>
-          <a href="#book-call" class="btn btn-outline btn-arrow">Talk to Us</a>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- FAQ -->
-  <section class="faq" id="faq">
-    <div class="container">
-      <div class="faq-header">
-        <div class="section-label">FAQ</div>
-        <h2>Questions? We've Got Answers.</h2>
-        <p class="section-subtitle">Everything you need to know before getting started.</p>
-      </div>
-      <div class="faq-list">
-        <div class="faq-item">
-          <button class="faq-question">
-            <span>How quickly can we get set up?</span>
-            <span class="faq-icon">+</span>
-          </button>
-          <div class="faq-answer">
-            <div class="faq-answer-inner">Most clients are live within 3-5 business days. We handle all the setup — training the AI on your services, connecting to your phone system, and integrating with your calendar or CRM. You just show up to a 30-minute onboarding call and we take it from there.</div>
-          </div>
-        </div>
-        <div class="faq-item">
-          <button class="faq-question">
-            <span>Will the AI sound robotic to my customers?</span>
-            <span class="faq-icon">+</span>
-          </button>
-          <div class="faq-answer">
-            <div class="faq-answer-inner">No. We use the latest conversational AI that sounds natural and professional. Most callers can't tell the difference. We customize the voice, tone, and responses to match your brand — and we continuously improve it based on real call data.</div>
-          </div>
-        </div>
-        <div class="faq-item">
-          <button class="faq-question">
-            <span>What if a call needs a real person?</span>
-            <span class="faq-icon">+</span>
-          </button>
-          <div class="faq-answer">
-            <div class="faq-answer-inner">The AI is smart enough to know when to transfer. Emergency calls, complex questions, or high-value leads can be instantly routed to you or your team. You set the rules — the AI follows them.</div>
-          </div>
-        </div>
-        <div class="faq-item">
-          <button class="faq-question">
-            <span>Do I need to be tech-savvy to use this?</span>
-            <span class="faq-icon">+</span>
-          </button>
-          <div class="faq-answer">
-            <div class="faq-answer-inner">Not at all. If you can use a smartphone, you can use our tools. We set everything up for you and provide a simple dashboard where you can see calls, leads, and results. No coding, no complicated software to learn.</div>
-          </div>
-        </div>
-        <div class="faq-item">
-          <button class="faq-question">
-            <span>What's the ROI? How fast will I see results?</span>
-            <span class="faq-icon">+</span>
-          </button>
-          <div class="faq-answer">
-            <div class="faq-answer-inner">Most clients see a positive ROI within the first 2 weeks. Think about it: if you're missing even 5 calls a week and the average job is $500+, that's $10K/month you're leaving on the table. Our AI captures those calls from day one. The reactivation campaigns typically pay for themselves within the first week.</div>
-          </div>
-        </div>
-        <div class="faq-item">
-          <button class="faq-question">
-            <span>Is there a long-term contract?</span>
-            <span class="faq-icon">+</span>
-          </button>
-          <div class="faq-answer">
-            <div class="faq-answer-inner">No. We work on a month-to-month basis because we believe in earning your business every single month. That said, our retention rate is over 95% — because the results speak for themselves.</div>
-          </div>
-        </div>
-        <div class="faq-item">
-          <button class="faq-question">
-            <span>What industries do you work with?</span>
-            <span class="faq-icon">+</span>
-          </button>
-          <div class="faq-answer">
-            <div class="faq-answer-inner">We specialize exclusively in home services — roofing, HVAC, plumbing, electrical, landscaping, painting, pest control, cleaning, and general contracting. This focus means our AI is pre-trained on how your industry works, what your customers ask, and what converts.</div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- CTA -->
-  <section class="cta" id="book-call">
-    <div class="container cta-content">
-      <div class="section-label" style="justify-content:center;">Let's Talk</div>
-      <h2>Ready to Stop Losing Leads<br>and Start Scaling?</h2>
-      <p class="section-subtitle">Book a free 30-minute strategy call. We'll show you exactly how many leads you're missing and how to capture them — no pitch, no pressure.</p>
-      <div class="cta-buttons">
-        <a href="https://calendly.com/elevatedengagement" target="_blank" rel="noopener" class="btn btn-primary btn-arrow">Book Your Free Strategy Call</a>
-        <a href="mailto:hello@elevatedengagement.ai" class="btn btn-secondary">Email Us Instead</a>
-      </div>
-      <p class="cta-note">Free strategy call · No contracts · Results in your first week</p>
-    </div>
-  </section>
-
-  <!-- Footer -->
-  <footer class="footer">
-    <div class="container">
-      <div class="footer-grid">
-        <div class="footer-brand">
-          <a href="#" class="nav-logo" style="color:#fff;">
-            <div class="nav-logo-icon">E</div>
-            Elevated
-          </a>
-          <p>AI-powered growth tools for home service businesses. Capture every lead. Book every job. Scale with confidence.</p>
-        </div>
-        <div class="footer-col">
-          <h4>Services</h4>
-          <a href="#services">AI Phone Receptionist</a>
-          <a href="#services">Lead Qualification</a>
-          <a href="#services">SMS &amp; Email Reactivation</a>
-          <a href="#services">Scaling Consultation</a>
-        </div>
-        <div class="footer-col">
-          <h4>Company</h4>
-          <a href="#about">About</a>
-          <a href="#results">Results</a>
-          <a href="#faq">FAQ</a>
-          <a href="#book-call">Contact</a>
-        </div>
-        <div class="footer-col">
-          <h4>Contact</h4>
-          <a href="mailto:hello@elevatedengagement.ai">hello@elevatedengagement.ai</a>
-          <a href="tel:+1234567890">(123) 456-7890</a>
-        </div>
-      </div>
-      <div class="footer-bottom">
-        <p>&copy; 2025 Elevated Engagement AI. All rights reserved.</p>
-        <p>Built with 🤝 for the trades.</p>
-      </div>
-    </div>
-  </footer>
-
-  <script src="script.js"></script>
+<script src="script.js"></script>
 </body>
 </html>
